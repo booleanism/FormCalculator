@@ -15,6 +15,7 @@ namespace FormCalculator
         public MainActivity()
         {
             InitializeComponent();
+            this.Text = "Form Calculator";
         }
 
         private void proses(int nilaiA, int nilaiB, string operasi, int hasil)

@@ -15,6 +15,7 @@ namespace FormCalculator
         public CalculateActivity()
         {
             InitializeComponent();
+            this.Text = "Hitung";
             CalcInit();
         }
 
